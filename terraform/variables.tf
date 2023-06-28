@@ -22,9 +22,10 @@ variable "domain" {
 	default = "ventureronindomain.pp.ua"
 }
 
-variable "local_ip_range" {
+variable "local_ip_range" { #?
 	default = "10.100.0.0/28"
 }
 
 variable "gke_ip_range" {
 	default = "10.200.0.0/19"
+}
