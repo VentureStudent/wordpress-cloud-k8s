@@ -11,11 +11,11 @@ variable "zone_prj" {
 }
 
 variable "sa_name" {
-	default = "sa-tfstate"
+	default = "gsp_s_account"
 }
 
 variable "sa_account" {
-	default = ".iam.gserviceaccount.com"
+	default = "gsp-s-account@striped-torus-390614.iam.gserviceaccount.com"
 }
 
 variable "domain" {
